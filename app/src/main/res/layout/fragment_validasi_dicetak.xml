@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/validasidicetak"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorbg"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.jangkung.ktm.ValidasiDicetak"
+        tools:showIn="@layout/app_bar_main">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ktmjadi" />
+
+            <TextView
+                fontPath="Montserrat-Regular.ttf"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:text="KTM berhasil dicetak, mohon segera melakukan pengambilan di ruang PMB. Klik lanjut untuk menuju halaman Pengajuan."
+                android:textAlignment="center"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/validasikembali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:text="Kembali" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

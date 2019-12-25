@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/home"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/nav_pengajuan"
+            android:icon="@drawable/ic_menu_sends"
+            android:title="Pengajuan" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about01"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_help"
+            android:title="Help!" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_help"
+            android:title="Profil!" />
+        <item
+            android:id="@+id/nav_dikirim"
+            android:icon="@drawable/ic_menu_help"
+            android:title="dikirim" />
+        <item
+            android:id="@+id/nav_ditolak"
+            android:icon="@drawable/ic_menu_help"
+            android:title="ditolak" />
+        <item
+            android:id="@+id/nav_divalidasi"
+            android:icon="@drawable/ic_menu_help"
+            android:title="divalidasi" />
+        <item
+            android:id="@+id/nav_dicetak"
+            android:icon="@drawable/ic_menu_help"
+            android:title="dicetak" />
+        <item
+            android:id="@+id/nav_pengajuanadmin"
+            android:icon="@drawable/ic_menu_help"
+            android:title="pengajuanadmin" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_login"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_back"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

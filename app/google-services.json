@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "215754861202",
+    "firebase_url": "https://kartumahasiswa-69365.firebaseio.com",
+    "project_id": "kartumahasiswa-69365",
+    "storage_bucket": "kartumahasiswa-69365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215754861202:android:1e5ddd61bda5b3b4",
+        "android_client_info": {
+          "package_name": "com.jangkung.ktm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215754861202-gm5hnt7847l4fchkna65ikruhiqv0fvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5LGAIrVhUXjAxzVwnWjIMD3Imtn_K1A8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

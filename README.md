@@ -1,2 +1,2 @@
 # KTM
- Simple app with local server database
+ Simple app with local database
